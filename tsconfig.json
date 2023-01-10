@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6", //TYPEORM
+    "experimentalDecorators": true, //TYPEORM
+    "emitDecoratorMetadata": true, //TYPEORM
+    "module": "commonjs", //TRANSPILAÇÃO DE CÓDIGO
+    "moduleResolution": "node", //TRANSPILAÇÃO DE CÓDIGO
+    "sourceMap": true, //TRANSPILAÇÃO DE CÓDIGO
+    "outDir": "./dist", //TRANSPILAÇÃO DE CÓDIGO
+    "esModuleInterop": true, //TRANSPILAÇÃO DE CÓDIGO
+    "forceConsistentCasingInFileNames": true, //TRANSPILAÇÃO DE CÓDIGO
+    "skipLibCheck": true, //TRANSPILAÇÃO DE CÓDIGO
+    "strict": false,
+    "typeRoots": ["src/@types", "node_modules/@types"]
+  }
+}
